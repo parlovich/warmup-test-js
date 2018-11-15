@@ -4,7 +4,8 @@
   "description": "Warm up tests",
   "main": "test.js",
   "scripts": {
-    "test": "JUNIT_REPORT_PATH=report.xml mocha --colors --reporter mocha-jenkins-reporter"
+    "test": "mocha test.js",
+    "test-jenkins": "JUNIT_REPORT_PATH=report.xml mocha --colors --reporter mocha-jenkins-reporter"
   },
   "author": "",
   "license": "ISC",
